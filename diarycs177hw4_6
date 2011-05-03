@@ -1,0 +1,180 @@
+octave-3.2.3:4> diary on
+octave-3.2.3:5> pwd
+ans = /Users/iaincrosby/Desktop
+octave-3.2.3:6> addpath("/Users/iaincrosby/Desktop/cs177/cs177hw4")
+octave-3.2.3:7> addpath("/Users/iaincrosby/Desktop/cs177git/OctaveBat")
+octave-3.2.3:8> path
+
+Octave's search path contains the following directories:
+
+.
+/Users/iaincrosby/Desktop/cs177git/OctaveBat
+/Users/iaincrosby/Desktop/cs177/cs177hw4
+/Applications/Octave.app/Contents/Resources/libexec/octave/3.2.3/site/oct/i386-apple-darwin8.11.1
+/Applications/Octave.app/Contents/Resources/libexec/octave/site/oct/api-v37/i386-apple-darwin8.11.1
+/Applications/Octave.app/Contents/Resources/libexec/octave/site/oct/i386-apple-darwin8.11.1
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/site/m
+/Applications/Octave.app/Contents/Resources/share/octave/site/api-v37/m
+/Applications/Octave.app/Contents/Resources/share/octave/site/m
+/Applications/Octave.app/Contents/Resources/share/octave/site/m/startup
+/Applications/Octave.app/Contents/Resources/libexec/octave/3.2.3/oct/i386-apple-darwin8.11.1
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/audio
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/deprecated
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/elfun
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/general
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/geometry
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/help
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/image
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/io
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/linear-algebra
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/miscellaneous
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/optimization
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/path
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/pkg
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/plot
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/polynomial
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/set
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/signal
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/sparse
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/specfun
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/special-matrix
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/startup
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/statistics
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/statistics/base
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/statistics/distributions
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/statistics/models
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/statistics/tests
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/strings
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/testfun
+/Applications/Octave.app/Contents/Resources/share/octave/3.2.3/m/time
+
+octave-3.2.3:9> pwd
+ans = /Users/iaincrosby/Desktop
+octave-3.2.3:10> hw4script
+blueTicket(9, 28, 2) --> 0
+blueTicket(12, 3, 2) --> 5
+blueTicket(-10, 10, 0) --> 10
+blueTicket(1, 8, 2) --> 10
+blueTicket(23, 5, 1) --> 0
+blueTicket(10, 0, 1) --> 10
+blueTicket(11, 0, 1) --> 5
+blueTicket(1, 8, 20) --> 10
+blueTicket(-10, -10, 0) --> 0
+blueTicket(-10, 0, 1) --> 0
+blueTicket(250, 5, 240) --> 5
+ans = 0
+      cigarParty(50,0)=1
+      cigarParty(30,0)=0
+      cigarParty(70,1)=1
+      cigarParty(30,1)=0
+      cigarParty(40,0)=1
+      cigarParty(80,1)=1
+      cigarParty(59,0)=1
+      cigarParty(0,1)=0
+      cigarParty(39,1)=0
+      cigarParty(-50,0)=0
+      cigarParty(60,1)=1
+      cigarParty(0,0)=0
+      cigarParty(90,1)=1
+      cigarParty(90,0)=0
+      cigarParty(200000,0)=0
+      cigarParty(200000,1)=1
+
+Errors: 0
+
+        close10(8,13)->8
+        close10(13,8)->8
+        close10(7,13)->0
+        close10(13,7)->0
+        close10(5,21)->5
+        close10(0,20)->0
+        close10(10,10)->0
+        close10(27,-7)->0
+        close10(15,4)->0
+        close10(123456,123457)->123456
+e = 0
+
+Errors: 0
+
+        everyNth(Miracle,2)->Mrce
+        everyNth(abcdefg,2)->aceg
+        everyNth(abcdefg,3)->adg
+        everyNth(Chocolate,3)->Cca
+        everyNth(Chocolates,3)->Ccas
+        everyNth(Chocolates,4)->Coe
+        everyNth(Chocolates,100)->C
+        everyNth(This is a String,3)->Tss rg
+ans = 0
+ in3050(20,40)=0
+ in3050(35,49)=0
+ in3050(99,200)=0
+ in3050(44,33)=0
+ in3050(9999,8888)=0
+ in3050(34,8976454)=0
+ in3050(44,33)=0
+ in3050(45,32)=0
+ in3050(30,50)=0
+ in3050(30,41)=0
+ in3050(43,45)=1
+ in3050(37,38)=1
+ans = 0
+ intMax(1,2,3)=3
+ intMax(12,44,15)=44
+ intMax(98,75,20)=98
+ intMax(111,2000,8956)=8956
+ intMax(30,40,5000)=5000
+ intMax(111,1111,11111)=11111
+ intMax(7463837,9287230949,90238)=9287230949
+ intMax(0,0,1)=1
+ intMax(1,1,1)=1
+ intMax(0,0,0)=0
+ans = 0
+lastDigit(10,10)=1
+lastDigit(19,18)=0
+lastDigit(1002,102)=1
+lastDigit(1000,1001)=0
+lastDigit(111,22)=0
+lastDigit(23,3)=1
+lastDigit(11,0)=0
+lastDigit(76,76)=1
+lastDigit(1000,0)=1
+lastDigit(5,34)=0
+lastDigit(115,235)=1
+lastDigit(1192,1191)=0
+lastDigit(-12345,34545)=1
+ans = 0
+ans = 0
+     nearOnes(75)=0     nearOnes(91)=1     nearOnes(1002)=0     nearOnes(202)=1     nearOnes(5555)=0     nearOnes(1234)=0     nearOnes(500)=0     nearOnes(108)=1     nearOnes(10101)=0ans = 0
+  parrot_trouble(1, 1) = 1
+  parrot_trouble(0, 20) = 0
+  parrot_trouble(1, 13) = 0
+  parrot_trouble(0, 0) = 0
+  parrot_trouble(1, 21) = 1
+  parrot_trouble(1, 12) = 0
+  parrot_trouble(0, 7) = 0
+  parrot_trouble(1, 1) = 1
+  parrot_trouble(0, 22) = 0
+  parrot_trouble(1, 11) = 0
+  parrot_trouble(1, 7) = 0
+  parrot_trouble(1, 22) = 1
+ans = 0
+ictest =  1
+ans = 0
+       SleepIn(1,1) = 1
+       SleepIn(1,0) = 0
+       SleepIn(0,1) = 1
+       SleepIn(0,0) = 1
+ans = 0
+        stringE() -> 0
+        stringE(abecd) -> 1
+        stringE(abeecd) -> 1
+        stringE(abecde) -> 1
+        stringE(eabcde) -> 1
+        stringE(eee) -> 1
+        stringE(eEeabcde) -> 1
+        stringE(eeabecde) -> 0
+        stringE(This is a string) -> 0
+e = 0
+ans = 0
+octave-3.2.3:11> diary off
